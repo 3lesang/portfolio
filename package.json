@@ -1,0 +1,19 @@
+{
+  "name": "port",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/3lesang/port.git",
+  "author": "Sang Le <sang.le@dision.tech>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/style.css -o ./public/tailwind.css --minify --watch",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

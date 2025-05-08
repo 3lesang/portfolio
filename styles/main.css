@@ -2,4 +2,7 @@
 
 body {
   font-family: "DM Sans", sans-serif;
+  overflow-y: scroll;
+  height: 350px;
+  min-height: 101%;
 }

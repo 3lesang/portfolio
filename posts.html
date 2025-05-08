@@ -3,49 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./tailwind.css" rel="stylesheet" />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="../styles/tailwind.css" rel="stylesheet" />
+    <link href="../styles/main.css" rel="stylesheet" />
     <link
       rel="icon"
       type="image/png"
       href="https://anhdep.edu.vn/upload/2024/08/top-50-cute-avatar-de-ca-nhan-hoa-ho-so-online-cua-ban-48.webp"
     />
-    <title>About</title>
+    <title>Writing</title>
   </head>
   <body class="px-4 dark:bg-black dark:text-white">
     <header class="flex items-center max-w-2xl mx-auto py-2">
       <a href="/portfolio" class="">
-        <img
-          class="w-8 h-8 rounded-full"
-          src="https://anhdep.edu.vn/upload/2024/08/top-50-cute-avatar-de-ca-nhan-hoa-ho-so-online-cua-ban-48.webp"
-          alt=""
-        />
+        <p class="font-bold">sm.</p>
       </a>
       <div class="flex-grow"></div>
       <nav class="">
         <ul class="flex justify-end space-x-4">
-          <li><a href="about.html" class="hover:underline">About</a></li>
-          <li><a href="#contact" class="hover:underline">Contact</a></li>
+          <li><a href="posts" class="hover:underline">Writing</a></li>
+          <li><a href="info" class="hover:underline">Information</a></li>
+          <li><a href="contact" class="hover:underline">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main class="max-w-2xl mx-auto">
-      <section>
-        <h2 class="text-xl">About</h2>
+      <div class="my-8"></div>
+      <section class="my-2">
+        <h2 class="text-xl font-bold">Writing</h2>
         <p class="mt-2">
           This is the about page. It contains information about the website and
           its purpose.
         </p>
+        <button
+          class="mt-4 bg-black text-white px-2 hover:cursor-pointer py-1 rounded hover:bg-gray-800 transition duration-300 ease-in-out"
+        >
+          Click Me
+        </button>
       </section>
-      <section>
-        <div class="h-96"></div>
-      </section>
+      <section></section>
     </main>
     <footer class="max-w-2xl mx-auto">
       <p class="text-center text-sm text-gray-600">
-        &copy; 2025 My Portfolio
+        &copy; 2025 Sang Le
         <br />
-        <a href="" class="text-blue-500 hover:underline">GitHub</a>
+        <a
+          href="https://github.com/3lesang/portfolio"
+          target="_blank"
+          class="text-blue-500 hover:underline"
+          >GitHub</a
+        >
       </p>
     </footer>
   </body>

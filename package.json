@@ -6,7 +6,7 @@
   "author": "Sang Le <sang.le@dision.tech>",
   "license": "MIT",
   "scripts": {
-    "watch": "tailwindcss -i ./input.css -o ./tailwind.css --minify --watch",
+    "watch": "tailwindcss -i ./styles/input.css -o ./styles/tailwind.css --minify --watch",
     "dev": "vite"
   },
   "dependencies": {

@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./tailwind.css" rel="stylesheet" />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="styles/tailwind.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
     <title>Portfolio</title>
     <link
       rel="icon"
@@ -15,45 +15,114 @@
   <body class="px-4 dark:bg-black dark:text-white">
     <header class="flex items-center max-w-2xl mx-auto py-2">
       <a href="/portfolio" class="">
-        <img
-          class="w-8 h-8 rounded-full"
-          src="https://anhdep.edu.vn/upload/2024/08/top-50-cute-avatar-de-ca-nhan-hoa-ho-so-online-cua-ban-48.webp"
-          alt=""
-        />
+        <p class="font-bold">sm.</p>
       </a>
       <div class="flex-grow"></div>
       <nav class="">
         <ul class="flex justify-end space-x-4">
-          <li><a href="about.html" class="hover:underline">About</a></li>
-          <li><a href="#contact" class="hover:underline">Contact</a></li>
+          <li><a href="posts" class="hover:underline">Writing</a></li>
+          <li><a href="info" class="hover:underline">Information</a></li>
+          <li><a href="contact" class="hover:underline">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main class="max-w-2xl mx-auto">
-      <h2 class="text-xl">Hello, World!</h2>
-      <p class="mt-2">This is a simple page styled with Tailwind CSS.</p>
-      <button
-        class="mt-4 bg-black text-white px-2 hover:cursor-pointer py-1 rounded hover:bg-gray-800 transition duration-300 ease-in-out"
-      >
-        Click Me
-      </button>
-      <section>
-        <h1 class="text-xl">Features</h1>
-        <ul class="list-disc list-inside">
-          <li>Responsive design</li>
-          <li>Utility-first CSS</li>
-          <li>Customizable themes</li>
-        </ul>
+      <div class="my-8"></div>
+      <section class="my-2">
+        <h2 class="text-xl font-bold">Xin chào, I'm Sang.</h2>
+        <p class="mt-2">This is a simple page styled with Tailwind CSS.</p>
+        <a
+          class="bg-black text-white px-2 hover:cursor-pointer py-1 rounded hover:bg-gray-800 transition duration-300 ease-in-out text-sm inline-block"
+          href="info"
+          >More Information →</a
+        >
       </section>
-      <section>
-        <div class="h-80"></div>
+      <div class="my-8"></div>
+      <section class="my-2">
+        <h2 class="text-xl font-bold">Personal Projects</h2>
+        <p class="mt-2">
+          Below is a selection of recent projects that I've worked on.
+        </p>
+        <div class="my-2"></div>
+        <div class="grid grid-cols-2 gap-4">
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <div
+              class="flex flex-col h-40 lg:h-64 bg-gray-50 hover:bg-gray-100 transition-colors shadow rounded p-4"
+            >
+              <img
+                class="flex-grow rounded overflow-hidden mx-auto w-full object-fit"
+                src="https://alexpate.com/_next/image?url=%2Flinky.png&w=640&q=90"
+                alt=""
+              />
+              <h2 class="text-lg font-bold">Porte</h2>
+              <p class="text-gray-500 text-sm">
+                Below is a selection of recent projects that I've worked on.
+              </p>
+            </div>
+          </a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <div
+              class="flex flex-col h-40 lg:h-64 bg-gray-50 hover:bg-gray-100 transition-colors shadow rounded p-4"
+            >
+              <img
+                class="flex-grow rounded overflow-hidden mx-auto w-full object-fit"
+                src="https://alexpate.com/_next/image?url=%2Fhystruct.png&w=640&q=90"
+                alt=""
+              />
+              <h2 class="text-lg font-bold">Porte</h2>
+              <p class="text-gray-500 text-sm">
+                Below is a selection of recent projects that I've worked on.
+              </p>
+            </div>
+          </a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <div
+              class="flex flex-col h-40 lg:h-64 bg-gray-50 hover:bg-gray-100 transition-colors shadow rounded p-4"
+            >
+              <img
+                class="flex-grow rounded overflow-hidden mx-auto w-full object-fit"
+                src="https://alexpate.com/_next/image?url=%2Fflagdb.png&w=640&q=90"
+                alt=""
+              />
+              <h2 class="text-lg font-bold">Porte</h2>
+              <p class="text-gray-500 text-sm">
+                Below is a selection of recent projects that I've worked on.
+              </p>
+            </div>
+          </a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <div
+              class="flex flex-col h-40 lg:h-64 bg-gray-50 hover:bg-gray-100 transition-colors shadow rounded p-4"
+            >
+              <img
+                class="flex-grow rounded overflow-hidden mx-auto w-full object-fit"
+                src="https://alexpate.com/_next/image?url=%2Fawesome-design-systems.png&w=640&q=90"
+                alt=""
+              />
+              <h2 class="text-lg font-bold">Porte</h2>
+              <p class="text-gray-500 text-sm">
+                Below is a selection of recent projects that I've worked on.
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <div class="my-8"></div>
+      <section class="my-2">
+        <h2 class="text-xl font-bold">Recent Writing</h2>
+        <div class="my-2"></div>
       </section>
     </main>
     <footer class="max-w-2xl mx-auto">
       <p class="text-center text-sm text-gray-600">
-        &copy; 2025 My Portfolio
+        &copy; 2025 Sang Le
         <br />
-        <a href="" class="text-blue-500 hover:underline">GitHub</a>
+        <a
+          href="https://github.com/3lesang/portfolio"
+          target="_blank"
+          class="text-blue-500 hover:underline"
+          >GitHub</a
+        >
       </p>
     </footer>
   </body>
